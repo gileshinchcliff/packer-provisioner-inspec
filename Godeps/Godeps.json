@@ -1,0 +1,124 @@
+{
+	"ImportPath": "github.com/dnturner/packer-provisioner-inspec",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/hashicorp/errwrap",
+			"Rev": "7554cd9344cec97297fa6649b055a8c98c2a1e55"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-checkpoint",
+			"Rev": "a8d0786e7fa88adb6b3bcaa341a99af7f9740671"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-cleanhttp",
+			"Rev": "3573b8b52aa7b37b9358d966a898feb387f62437"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-multierror",
+			"Rev": "83588e72410abfbe4df460eeb6f30841ae47d4c4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-uuid",
+			"Rev": "64130c7a86d732268a38cb04cfbaf0cc987fda98"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/go-version",
+			"Rev": "03c5bf6be031b6dd45afec16b1cf94fc8938bc77"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/common",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/common/uuid",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/helper/config",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/packer",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/packer/plugin",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/packer/rpc",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/template",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/template/interpolate",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/packer/version",
+			"Comment": "v1.0.3-3-g8cfef76",
+			"Rev": "8cfef76cdd1f7220a0b9081a162766b93bf8a3d4"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/yamux",
+			"Rev": "d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/go-fs",
+			"Rev": "7bae45d9a684750e82b97ff320c82556614e621b"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/go-fs/fat",
+			"Rev": "7bae45d9a684750e82b97ff320c82556614e621b"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/iochan",
+			"Rev": "87b45ffd0e9581375c491fef3d32130bb15c5bd7"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "d0303fe809921458f417bcf828397a65db30a7e4"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/multistep",
+			"Rev": "391576a156a54cfbb4cf5d5eda40cf6ffa3e3a4d"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/reflectwalk",
+			"Rev": "8d802ff4ae93611b807597f639c19f76074df5c6"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "5efa3251c7f7d05e5d9704a69a984ec9f1386a40"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "6914964337150723782436d56b3f21610a74ce7b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519",
+			"Rev": "6914964337150723782436d56b3f21610a74ce7b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"Rev": "6914964337150723782436d56b3f21610a74ce7b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Rev": "6914964337150723782436d56b3f21610a74ce7b"
+		}
+	]
+}
