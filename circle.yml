@@ -18,7 +18,7 @@ test:
     - cp /home/ubuntu/.go_workspace/bin/packer-provisioner-inspec ${HOME}/bin
     - packer version
   override:
-    - cd uat && packer build uad.json
+    - cd uat && packer build uat.json
 
 general:
   artifacts:
