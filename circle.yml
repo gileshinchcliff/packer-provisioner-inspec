@@ -1,4 +1,6 @@
 machine:
+  timezone:
+    America/Toronto
   environment:
     IMPORT_PATH: "github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
     PKR_VERSION: 1.0.3
