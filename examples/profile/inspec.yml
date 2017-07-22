@@ -1,0 +1,6 @@
+name: ssh
+title: Basic SSH
+summary: Verify that SSH Server and SSH Client are configured securely
+version: 1.0.0
+supports:
+  - platform: aws

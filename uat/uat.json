@@ -1,0 +1,17 @@
+{
+  "builders": [{
+    "type": "amazon-ebs",
+    "source_ami": "ami-6df1e514",
+    "region": "us-west-2a",
+    "instance_type": "t2.micro",
+    "communicator": "ssh",
+    "ssh_username": "ec2-user",
+    "ami_name": "inspec-provisioner-uat-{{isotime \"20060102-150405\"}}",
+    "ami_description": "Automated acceptance test for Inspec provisioner",
+    "ami_virtualization_type": "hvm"
+  }],
+  "provisioners": [{
+    "type": "inspec",
+    "profile": "../examples/profile"
+  }]
+}
