@@ -1,11 +1,11 @@
 {
   "builders": [{
     "type": "amazon-ebs",
-    "source_ami": "ami-6df1e514",
-    "region": "ca-central-1",
+    "source_ami": "ami-0d063c6b",
+    "region": "eu-west-1",
     "instance_type": "t2.micro",
     "communicator": "ssh",
-    "ssh_username": "ec2-user",
+    "ssh_username": "centos",
     "ami_name": "inspec-provisioner-uat-{{isotime \"20060102-150405\"}}",
     "ami_description": "Automated acceptance test for Inspec provisioner",
     "ami_virtualization_type": "hvm"
